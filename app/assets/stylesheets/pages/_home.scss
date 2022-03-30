@@ -1,1 +1,15 @@
 // Specific CSS for your home-page
+img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+#home{
+  background-color: #023047;
+  color: #fff;
+  height: 100vh;
+  #name{
+    color: #fca311;
+  }
+}

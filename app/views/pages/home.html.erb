@@ -1,2 +1,16 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<%= render 'navbar' %>
+
+<section id="home">
+  <div class="main d-flex flex-column justify-content-around align-items-center">
+    <div class="picture">
+      <%= image_tag 'picture.jpg' %>
+    </div>
+    <div class="text-area">
+      <h1 class="heading">Hi, My Name is <span id='name'> Gabriel França</span></h1>
+      <p class="description">I'm a Full-Stack Developer</p>
+    </div>
+  </div>
+</section>
+<section id="about">
+  
+</section>
